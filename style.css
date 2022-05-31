@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-family: 'Rajdhani', sans-serif;
+    background: linear-gradient(90deg, hsla(173, 89%, 70%, 1) 0%, hsla(196, 68%, 38%, 1) 100%);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* HEADER */
+
+header{
+    width: 100%;
+    height: 3em;
+    margin-bottom: 3em;
+    background-color: #03045e; 
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 0.6em;
+    font-size: 1.2em;
+}
+
+a{
+    text-decoration: none;
+    color:silver;
+}
+
+/* HERO */
+
+.imagen{
+    width: 50em;
+    height: 37.5em;
+    background-size:cover;
+    background-image: url('images/4000_3_07.png');
+    margin: 0 auto;
+    display: flex;
+    align-items:flex-end;
+    filter: drop-shadow(38px 5px 10px rgb(95, 91, 91));
+    margin-bottom: 10em;
+}
+
+.contenedor{
+    margin: auto;
+    margin-top: 20em;
+    margin-left: 15em;
+    height: 8em;
+    background: rgb(53, 50, 50);
+    width: 15em;
+    border-radius: 2%;
+}
+.mac{
+    width: 2em;
+    margin-left: 2px;
+}
+
+.titulo{
+    color:limegreen;
+    margin-top: 0.5em;
+    margin-left: 0.9em;
+    font-size: 1.7em;
+}
+
+h2{
+    font-size: 1.3em;
+    margin-top: 0.5em;
+    margin-left: 0.8em ;
+    float: left;
+    color: silver;
+    position: relative;
+}
+
+h2 span{
+    position: absolute;
+    right: 0;
+    width: 0;
+    background: rgb(53, 50, 50);
+    border-left: 1px solid white;
+    animation: escribir 2s steps(17);
+}
+
+
+@keyframes escribir{
+    from{
+        width: 100%;
+    }
+    to{
+        width: 0;
+    }
+}
+
+/* PORTFOLIO */
+
+#portfolio{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #eaf4f4;
+    clip-path: ellipse(224% 100% at 10% 100%);
+    padding-bottom: 4em;
+    padding-top: 3em;
+}
+
+h3{
+    font-size: 4em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.elipse{
+    width: 100%;
+    height: 10em;
+    background-color: #eaf4f4;
+    clip-path: ellipse(138% 100% at 134.48% 0%);
+    margin-top: -20px;
+}
+
+.flex-padre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10em;
+}
+
+.imagen-portfolio{
+    width: 600px;
+    height: 300px;
+    border: 1px solid silver;
+}
+
+.texto-portfolio_left{
+    width: 400px;
+    height: 200px;
+    background-color: #ffffff;
+    margin-left: -100px;
+    margin-top: 130px;
+}
+.texto-portfolio_cuadro{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.5em;
+}
+
+.texto-portfolio_right{
+    width: 400px;
+    height: 200px;
+    background-color: #ffffff;
+    margin-right: -100px;
+    margin-top: 130px;
+    z-index: 10;
+}
+
+.icons{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.icons i{
+    color: black;
+    margin: 1em;
+}
+
+/* FOOTER */
+footer{
+    width: 100%;
+    height: 3em;
+    background-color: #03045e; 
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    margin-top: 4em;     
+}
+
+i{
+    font-size: 2em;
+    color: silver;
+    margin-right: 2em;
+    margin-left: 2em;
+    
+}
+
