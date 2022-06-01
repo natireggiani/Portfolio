@@ -39,12 +39,11 @@ a{
 
 .imagen{
     width: 50em;
-    height: 27em;
+    height: 28.5em;
 }
 
 .contenedor{
     width: 100vw;
-    padding-bottom: 10em;
 }
 
 .titulo{
@@ -95,7 +94,7 @@ h2 span{
 
 h3{
     font-size: 4em;
-    margin-top: 2em;
+    margin-top: 2.3em;
     margin-bottom: 2em;
     text-align: center;
     color:#450920
