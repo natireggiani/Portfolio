@@ -6,7 +6,6 @@
 :root{
     font-family: 'Rajdhani', sans-serif;
     background-color: #ffdbda;
-   
 }
 
 html{
@@ -20,7 +19,6 @@ header{
     height: 3em;
     margin-bottom: 3em;
     background: linear-gradient(90deg, hsla(14, 90%, 73%, 1) 0%, hsla(331, 54%, 44%, 1) 100%);
-    /* background-color: #450920;  */
 }
 
 ul{
@@ -43,24 +41,6 @@ a{
     width: 50em;
     height: 25em;
 }
-
-
-/* 
-.contenedor{
-    margin: auto;
-    margin-top: 20em;
-    margin-left: 15em;
-    height: 8em;
-    background: rgb(53, 50, 50);
-    filter: drop-shadow(38px 5px 10px rgb(95, 91, 91));
-    width: 50em;
-    height: 30em;
-    border-radius: 2%;
-} */
-/* .mac{
-    width: 2em;
-    margin-left: 2px;
-} */
 
 .contenedor{
     width: 100vw;
