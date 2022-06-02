@@ -4,21 +4,20 @@
     box-sizing: border-box;
 }
 
-
-:root{
-    font-family: 'Rajdhani', sans-serif;
-    background-color: #ffdbda;
-    width: auto;
-}
-
 html{
     scroll-behavior: smooth;
 }
+body{
+    background-color: #ffdbda;
+    font-family: 'Rajdhani', sans-serif;
+    width: 100vw;
+}
+
 
 /* HEADER */
 
 header{
-    width: auto;
+    width: 100vw;
     height: 3em;
     margin-bottom: 3em;
     background: linear-gradient(90deg, hsla(14, 90%, 73%, 1) 0%, hsla(331, 54%, 44%, 1) 100%);
@@ -40,12 +39,9 @@ a{
 
 /* HERO */
 
-.imagen{
-    height: 28.5em;
-}
-
 .contenedor{
-    width: 95%;
+    width: 95vw;
+    height: 20em;
 }
 
 .titulo{
@@ -86,7 +82,7 @@ h2 span{
 /* PORTFOLIO */
 
 #portfolio{
-    width: 100%;
+    width: 100vw;
     margin: 0 auto;
     background-color: #f8edeb;
     clip-path: ellipse(224% 100% at 10% 100%);
@@ -103,7 +99,7 @@ h3{
 }
 
 .elipse{
-    width: 100%;
+    width: 100vw;
     height: 10em;
     background-color: #f8edeb;
     clip-path: ellipse(138% 100% at 134.48% 0%);
@@ -126,18 +122,18 @@ h3{
 }
 
 .imagen-portfolio{
-    width: 600px;
-    height: 300px;
+    width:37.5em;
+    height:18.75em;
     border: 1px solid silver;
 }
 
 
 .texto-portfolio_left{
-    width: 400px;
-    height: 200px;
+    width: 25em;
+    height: 12.5em;
     background-color: #ffffff;
-    margin-left: -100px;
-    margin-top: 130px;
+    margin-left: -6.25em;
+    margin-top: 8.10em;
 }
 
 .texto-portfolio_cuadro{
@@ -147,11 +143,11 @@ h3{
 }
 
 .texto-portfolio_right{
-    width: 400px;
+    width: 25em;
     height: 200px;
     background-color: #ffffff;
-    margin-right: -100px;
-    margin-top: 130px;  
+    margin-right: -6.25em;
+    margin-top: 8.1em;  
 }
 
 .icons{
@@ -166,7 +162,7 @@ h3{
 
 /* FOOTER */
 footer{
-    width: auto;
+    width: 100vw;
     height: 3em;
     background: linear-gradient(90deg, hsla(14, 90%, 73%, 1) 0%, hsla(331, 54%, 44%, 1) 100%); 
     display: flex;
@@ -184,6 +180,7 @@ i{
 
 
 @media only screen and (max-width: 600px){
+
     .titulo{
         font-size: 2.5em;
         margin-left: 10%;
@@ -194,36 +191,33 @@ i{
         margin-right: 15%;
     }
     .contenedor{
+        margin: auto;
         height: 19em;
-        /* border: 1px solid red; */
-    }
-    .imagen{
-        height: 22em;
+        width: 70%;
     }
     h3{
         font-size: 2em;
     }
-    
     #portfolio{
+        width: 100vw;
         clip-path: ellipse(310% 100% at 35% 100%);
         padding-bottom: 4em;
         padding-top: 3em;
     }
     .imagen-portfolio{
-        width: 20em;
-        height: 10.5em;  
+        width: 18em;
+        height: 10em;  
     }
     .texto-portfolio_left{
-        width: 20em;
+        width: 18em;
         height: 9em;
         margin: 0;
     }
     .texto-portfolio_right{
-        width: 20em;
+        width: 18em;
         height: 9em;
         margin: 0;
     }
-    
     .texto-portfolio_cuadro{
         margin-top: 1.5em;
         font-size: 1.3em;
@@ -232,6 +226,7 @@ i{
         font-size: 1.3em;
         margin:1.3em
     }
+    
     
 
 }
