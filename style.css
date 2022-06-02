@@ -4,9 +4,11 @@
     box-sizing: border-box;
 }
 
+
 :root{
     font-family: 'Rajdhani', sans-serif;
     background-color: #ffdbda;
+    width: auto;
 }
 
 html{
@@ -183,11 +185,11 @@ i{
 
 @media only screen and (max-width: 600px){
     .titulo{
-        font-size: 3em;
+        font-size: 2.5em;
         margin-left: 10%;
     }
     h2{
-        font-size: 2em;
+        font-size: 1.5em;
         margin-top: 1em;
         margin-right: 15%;
     }
@@ -196,28 +198,29 @@ i{
         /* border: 1px solid red; */
     }
     .imagen{
-        height: 24em;
+        height: 22em;
     }
     h3{
-        font-size: 3em;
+        font-size: 2em;
     }
+    
     #portfolio{
         clip-path: ellipse(310% 100% at 35% 100%);
         padding-bottom: 4em;
         padding-top: 3em;
     }
     .imagen-portfolio{
-        width: 22em;
-        height: 12.5em;  
+        width: 20em;
+        height: 10.5em;  
     }
     .texto-portfolio_left{
-        width: 22em;
-        height: 10em;
+        width: 20em;
+        height: 9em;
         margin: 0;
     }
     .texto-portfolio_right{
-        width: 22em;
-        height: 10em;
+        width: 20em;
+        height: 9em;
         margin: 0;
     }
     
@@ -257,12 +260,12 @@ i{
         padding-top: 3em;
     }
     .imagen-portfolio{
-        width: 30em;
+        width: 25em;
         height: 15em;
     }
     
     .texto-portfolio_left{
-        width: 20em;
+        width: 18em;
         height: 10em;
     }
     
@@ -273,7 +276,7 @@ i{
     }
     
     .texto-portfolio_right{
-        width: 20em;
+        width: 18em;
         height: 10em;
     }
     .icons i{
