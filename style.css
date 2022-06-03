@@ -10,7 +10,6 @@ html{
 body{
     background-color: #ffdbda;
     font-family: 'Rajdhani', sans-serif;
-    width: 100vw;
 }
 
 
@@ -40,7 +39,7 @@ a{
 /* HERO */
 
 .contenedor{
-    width: 95vw;
+    /* width: 95vw; */
     height: 20em;
 }
 
@@ -82,7 +81,7 @@ h2 span{
 /* PORTFOLIO */
 
 #portfolio{
-    width: 100vw;
+    /* width: 100vw; */
     margin: 0 auto;
     background-color: #f8edeb;
     clip-path: ellipse(224% 100% at 10% 100%);
@@ -99,7 +98,7 @@ h3{
 }
 
 .elipse{
-    width: 100vw;
+    /* width: 100vw; */
     height: 10em;
     background-color: #f8edeb;
     clip-path: ellipse(138% 100% at 134.48% 0%);
@@ -186,12 +185,12 @@ i{
         margin-left: 10%;
     }
     h2{
-        font-size: 1.5em;
+        font-size: 1.3em;
         margin-top: 1em;
         margin-right: 15%;
     }
     .contenedor{
-        margin: auto;
+        /* margin: auto; */
         height: 19em;
         width: 70%;
     }
@@ -199,7 +198,7 @@ i{
         font-size: 2em;
     }
     #portfolio{
-        width: 100vw;
+        /* width: 100vw; */
         clip-path: ellipse(310% 100% at 35% 100%);
         padding-bottom: 4em;
         padding-top: 3em;
@@ -220,11 +219,17 @@ i{
     }
     .texto-portfolio_cuadro{
         margin-top: 1.5em;
-        font-size: 1.3em;
+        font-size: 1em;
     }
     .icons i{
-        font-size: 1.3em;
-        margin:1.3em
+        font-size: 1em;
+        margin:1em
+    }
+
+    i{
+    font-size: 1em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
     }
     
     
