@@ -37,14 +37,14 @@ a{
     font-weight:bolder;
 }
 a:hover{
-    color: #ffffff;
+    color: #f8edeb;
 }
 
 /* HERO */
 
 .contenedor{
     /* width: 95vw; */
-    height: 20em;
+    height: 50vh;
 }
 
 .titulo{
@@ -69,7 +69,7 @@ h2 span{
     width: 0;
     background: #ffdbda;
     border-left: 1px solid #450920;
-    animation: escribir 2s steps(17);
+    animation: escribir 2.5s steps(17);
 }
 
 
@@ -160,8 +160,9 @@ h3{
 
 .icons i{
     color: black;
-    margin: 1em;
+    margin: 0.3em;
 }
+
 
 /* FOOTER */
 footer{
@@ -181,6 +182,10 @@ i{
     margin-left: 2em;
 }
 
+i:hover{
+    color: #f8edeb;
+}
+
 
 @media only screen and (max-width: 600px){
 
@@ -195,7 +200,7 @@ i{
     }
     .contenedor{
         /* margin: auto; */
-        height: 19em;
+        height: 74vh;
         width: 70%;
     }
     h3{
@@ -252,7 +257,7 @@ i{
         margin-right: 15%;
     }
     .contenedor{
-        height: 19em;
+        height: 60vh;
         /* border: 1px solid red; */
     }
     .imagen{
