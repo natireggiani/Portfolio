@@ -125,7 +125,7 @@ h3{
 }
 
 .imagen-portfolio{
-    width:37.5em;
+    width:37em;
     height:18.75em;
     border: 1px solid silver;
 }
@@ -200,7 +200,7 @@ i:hover{
     }
     .contenedor{
         /* margin: auto; */
-        height: 25em;
+        height: 23em;
         width: 70%;
     }
     h3{
