@@ -33,18 +33,18 @@ ul{
 
 a{
     text-decoration: none;
-    color:#450920;
+    color: #f8edeb;
     font-weight:bolder;
 }
 a:hover{
-    color: #f8edeb;
+    color:#450920;
 }
 
 /* HERO */
 
 .contenedor{
     /* width: 95vw; */
-    height: 50vh;
+    height: 35vh;
 }
 
 .titulo{
@@ -85,12 +85,16 @@ h2 span{
 /* PORTFOLIO */
 
 #portfolio{
-    /* width: 100vw; */
     margin: 0 auto;
     background-color: #f8edeb;
-    clip-path: ellipse(224% 100% at 10% 100%);
+    /* clip-path: ellipse(224% 100% at 10% 100%); */
     padding-bottom: 4em;
     padding-top: 3em;
+    margin-top: -10px
+}
+.wave{
+    width: 100vw;
+    /* margin-bottom: -100px; */
 }
 
 h3{
@@ -177,13 +181,13 @@ footer{
 
 i{
     font-size: 2em;
-    color:#450920;
+    color: #f8edeb;
     margin-right: 2em;
     margin-left: 2em;
 }
 
 i:hover{
-    color: #f8edeb;
+    color:#450920;
 }
 
 
@@ -191,12 +195,13 @@ i:hover{
 
     .titulo{
         font-size: 2.5em;
-        margin-left: 10%;
+        margin-left: 20%;
+        padding-top: 2em;
     }
     h2{
         font-size: 1.3em;
         margin-top: 1em;
-        margin-right: 15%;
+        margin-right: 5%;
     }
     .contenedor{
         /* margin: auto; */
@@ -208,7 +213,7 @@ i:hover{
     }
     #portfolio{
         /* width: 100vw; */
-        clip-path: ellipse(310% 100% at 35% 100%);
+        /* clip-path: ellipse(310% 100% at 35% 100%); */
         padding-bottom: 4em;
         padding-top: 3em;
     }
@@ -247,14 +252,17 @@ i:hover{
 
 @media (min-width: 601px) and (max-width: 1000px){
     .titulo{
-        font-size: 4em;
+        font-size: 3em;
         margin-left: 10%;
 
     }
     h2{
-        font-size: 2em;
+        font-size: 1.8em;
         margin-top: 1em;
         margin-right: 15%;
+    }
+    h3{
+        font-size: 2.5em;
     }
     .contenedor{
         height: 60vh;
@@ -264,7 +272,7 @@ i:hover{
         height: 20em;
     }
     #portfolio{
-        clip-path: ellipse(310% 100% at 35% 100%);
+        /* clip-path: ellipse(310% 100% at 35% 100%); */
         padding-bottom: 4em;
         padding-top: 3em;
     }
