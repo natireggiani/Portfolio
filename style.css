@@ -167,6 +167,10 @@ h3{
     margin: 0.3em;
 }
 
+.hide{
+    visibility: hidden;
+}
+
 
 /* FOOTER */
 footer{
