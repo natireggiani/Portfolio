@@ -226,6 +226,11 @@ i:hover{
         margin-top: 0.5em;
         margin-bottom: 1em;
         padding-left: 0.3em;
+        color: #f8edeb;
+    }
+
+    .menu i:hover{
+        color:#450920
     }
 
     ul{
