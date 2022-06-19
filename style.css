@@ -22,6 +22,10 @@ header{
     background: linear-gradient(90deg, hsla(14, 90%, 73%, 1) 0%, hsla(331, 54%, 44%, 1) 100%);
 }
 
+.menu{
+    display: none;
+}
+
 ul{
     display: flex;
     justify-content:space-around;
@@ -172,6 +176,7 @@ h3{
 }
 
 
+
 /* FOOTER */
 footer{
     width: 100vw;
@@ -196,6 +201,40 @@ i:hover{
 
 
 @media only screen and (max-width: 600px){
+
+    .none{
+        display: none;
+    }
+
+    header{
+        height:3em;
+    }
+
+    .header{
+        height: 10em;
+    }
+
+    .menu{
+        display: inline;
+    }
+
+    .menu i{
+        font-size: 1.5em;
+        margin-top: 0.5em;
+        margin-bottom: 1em;
+        padding-left: 0.3em;
+    }
+
+    ul{
+        padding-top: 0em;
+        padding-left: 1em;
+        flex-direction: column;
+        font-size: 1em;
+    }
+
+    ul li{
+        margin-top: 0.3em;
+    }
 
     .titulo{
         font-size: 2.5em;
