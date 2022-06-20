@@ -97,7 +97,7 @@ h2 span{
     /* clip-path: ellipse(224% 100% at 10% 100%); */
     padding-bottom: 4em;
     padding-top: 3em;
-    margin-top: -10px
+    margin-top: -0.7em
 }
 .wave{
     width: 100vw;
@@ -117,7 +117,7 @@ h3{
     height: 10em;
     background-color: #f8edeb;
     clip-path: ellipse(138% 100% at 134.48% 0%);
-    margin-top: -20px;
+    margin-top: -1.25em;
 }
 
 .flex-padre{
@@ -158,7 +158,7 @@ h3{
 
 .texto-portfolio_right{
     width: 25em;
-    height: 200px;
+    height: 12.5em;
     background-color: #ffffff;
     margin-right: -6.25em;
     margin-top: 8.1em;  
