@@ -152,8 +152,10 @@ h3{
 
 .texto-portfolio_cuadro{
     text-align: center;
-    margin-top: 2em;
-    font-size: 1.5em;
+    margin-top: 2.3em;
+    font-size: 1.1em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .texto-portfolio_right{
@@ -171,7 +173,7 @@ h3{
 
 .icons i{
     color: black;
-    margin: 0.3em;
+    margin: 0.5em;
 }
 
 .hide{
@@ -283,8 +285,8 @@ i:hover{
         margin: 0;
     }
     .texto-portfolio_cuadro{
-        margin-top: 1.5em;
-        font-size: 1em;
+        margin-top: 2em;
+        font-size: 0.8em;
     }
     .icons i{
         font-size: 1em;
