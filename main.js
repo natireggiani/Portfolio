@@ -12,3 +12,4 @@ menu.addEventListener('click', function(){
     ul.classList.toggle('none')
     header.classList.toggle('header')
 })
+
