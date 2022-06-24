@@ -94,16 +94,15 @@ h2 span{
 .sobre-mi{
     margin: 0 auto;
     background-color: #f8edeb;
-    height: 600px;
     width: 100vw;
-    margin-top: -10em
+    margin-top: -10em;
+    margin-bottom: -5em;
 }
 
 .sobre-mi p{
-    
     text-align: center;
     font-size: 2em;
-    margin-top:1em;
+    margin-top:0.5em;
     color:#450920;  
 }
 
@@ -113,7 +112,14 @@ h2 span{
     justify-content: center;
     align-items: center;
     margin-bottom: 10em;
+    margin-top: -5em;
 }
+
+.svg{
+    margin-top: -10em;
+}
+
+
 
 /* PORTFOLIO */
 
@@ -123,11 +129,11 @@ h2 span{
     /* clip-path: ellipse(200% 100% at 10% 100%); */
     padding-bottom: 4em;
     padding-top: 3em;
-    margin-top: -0.7em
+    /* margin-top: -0.7em */
 }
 
 .portfolio{
-    margin-top: 2em;
+    margin-top: -1em;
 }
 .wave{
     width: 100vw;
@@ -294,10 +300,11 @@ i:hover{
     }
     h3{
         font-size: 2em;
+        /* margin-top: 4em; */
     }
 
     .sobre-mi{
-        margin-top: -0.5em;
+        margin-top: -1em;
         padding-top: 3em;
         height: 600px;
     }
@@ -311,19 +318,22 @@ i:hover{
         font-size: 1.3em;
     }
 
-
-    #portfolio{
-        /* width: 100vw; */
-        /* border: 1px solid red; */
-        /* margin-top: 1em; */
-        /* clip-path: ellipse(310% 100% at 35% 100%); */
-        padding-bottom: 4em;
-        /* padding-top: 3em; */
+    .sobre-mi_textos{
+        margin-top: -3em;
     }
 
+
+    .svg{
+        margin-top: -7em;
+    }
+
+    #prueba{
+        margin-top: 0;
+    }
+    
     .portfolio{
-        margin-top: 0.5em;
-        margin-bottom: 4em;
+        margin-top: -3em;
+        margin-bottom: 2em;
     }
     .imagen-portfolio{
         width: 18em;
