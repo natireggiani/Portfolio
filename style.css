@@ -10,6 +10,7 @@ html{
 body{
     background-color: #ffdbda;
     font-family: 'Rajdhani', sans-serif;
+    overflow-x: hidden;
 }
 
 
