@@ -6,10 +6,12 @@ let header = document.querySelector('#nav')
 
 window.addEventListener('scroll', function(){
     prueba.classList.remove('hide')
+    ul.classList.add('none')
+    header.classList.remove('header')
 })
 
 menu.addEventListener('click', function(){
-    ul.classList.toggle('none')
-    header.classList.toggle('header')
+    ul.classList.remove('none')
+    header.classList.add('header')
 })
 
