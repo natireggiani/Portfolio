@@ -203,6 +203,7 @@ h3{
     background-color: #ffffff;
     margin-right: -6.25em;
     margin-top: 8.1em;  
+    z-index: 10;
 }
 
 .icons{
